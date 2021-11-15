@@ -1,12 +1,12 @@
 # XAI-ImageExplanation
 
-IMAGE CLASSIFICATION
+## IMAGE CLASSIFICATION
 This application predicts the top 3 classification of an image using Inception_V3 model, the first prediction considers an accuracy between 55% and 75%, and the accuracy for the second prediction is greater to 30%. The data model used in the experiment is Visual Genome.
 
-INTERPRETATION IMAGES GENERATOR "XAI"
+## INTERPRETATION IMAGES GENERATOR "XAI"
 This tool is used to generate interpretation images for any arbitrary dataset of images. The techniques used for interpretations are Integrated Gradients (IG), LIME, XRAI and ANCHOR.
 
-REQUIREMENTS
+## REQUIREMENTS
 This project used Python 3.8.5 but should work with any Python 3.6+ installation.
 
 Also, the project uses several scientific Python libraries, like Tensorflow and Numpy, to name a few.
@@ -23,7 +23,7 @@ If you want to use the generation functionalities of the project, use the follow
 $ pip install -r requirements-gen.txt
 If, by any reason, an error happens, installation can be manual:
 
-EXECUTION AND USAGE
+## EXECUTION AND USAGE
 Image Generation
 The project uses 4 scripts to generate interpretation images. The files used to generate images are:
 
